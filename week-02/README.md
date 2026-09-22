@@ -6,6 +6,6 @@ It actually made me think about what most people would notice about the website 
 What happened when someone else encountered your experience without your help?
 I put the link at the bottom of the page, which made people miss it. They just looked at the picture and the text, not the navigation link at the bottom. I felt like drawing the experience was really interesting. I get the actually made me think deeper about the design and what the user would expect. I found a similar website called Figma.
 
-Just a cool website that I found
+[Just a cool website that I found](https://lusion.co/)
 
 <img width="865" height="603" alt="BEFE050A-F275-4578-9BD2-4DF20007916E" src="https://github.com/user-attachments/assets/c9581b88-331d-4da6-9d6a-8e5ddab3786d" />
