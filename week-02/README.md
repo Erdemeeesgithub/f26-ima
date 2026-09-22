@@ -11,6 +11,7 @@ I put the link at the bottom of the page, which made people miss it. They just l
 [Cool website that I found](https://lusion.co/)
 
 Main → Security Guard Job → back to Main
+
 Main → Characters → back to Main
 
 <img width="865" height="603" alt="BEFE050A-F275-4578-9BD2-4DF20007916E" src="https://github.com/user-attachments/assets/c9581b88-331d-4da6-9d6a-8e5ddab3786d" />
