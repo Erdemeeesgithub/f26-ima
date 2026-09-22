@@ -1,4 +1,4 @@
-<a url="[Link to p5](https://editor.p5js.org/Erdemeeesgithub/sketches/IbtHy3UQJ)">Link to p5<a/>
+<a url="(https://editor.p5js.org/Erdemeeesgithub/sketches/IbtHy3UQJ)">Link to p5<a/>
 
 How did thinking about someone else's path through the website change the way you designed it?
 It actually made me think about what most people would notice about the website first. For example, if I designed the website with big pictures first, then linking to different pages at the bottom would make most people miss the link. This led me to the conclusion that putting the navigation buttons and links at the top of the page is a good idea. When we were looking at the other websites in class, I noticed one of my classmates made a website like Google Maps. If you press the top button, you go to the Manhattan Bridge, and the bottom button is to go back to the former location, which I find really creative.
