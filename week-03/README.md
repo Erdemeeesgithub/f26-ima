@@ -2,7 +2,7 @@ Week 3
 
 First Design 
 
-*Discovered display: flex, flex-direction: column, justify-content: center, align-items: center, which makes the div move around easily like a block.*
+*Discovered display: flex, flex-direction: column, justify-content: center, align-items: center, which lets me arrange the elements inside a div in a row or column and center them easily.*
 
 <img width="1509" height="902" alt="Screenshot 2026-09-29 at 15 17 31" src="https://github.com/user-attachments/assets/f2837588-aa0f-49c7-a070-e437382ee89c" />
 
@@ -21,7 +21,7 @@ Second Design(Added more screenshots because it is a scrolling website)
 
 1. Which visual decision changed the meaning most?
 
-I would say background color. Switching from red color which gave creepy vibes to black changes the whole website vibe entirely. Scale also     changed the vibe differently. Filling the whole screen using vh made it scrollable and added more personality to the website.
+I would say background color. Switching from black, which gave creepy vibes, to red changed the website's vibe entirely. Scale also changed the vibe differently. Filling the whole screen using vh made it scrollable and added more personality to the website.
 
 2. What did you discover about the difference between making something attractive and giving it a voice?
    
