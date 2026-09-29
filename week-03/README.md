@@ -2,13 +2,13 @@ Week 3
 
 First Design 
 
-*Discovered display: flex, flex-direction: column, justify-content: center, align-items: center, which makes the div move around easily like a block.
+*Discovered display: flex, flex-direction: column, justify-content: center, align-items: center, which makes the div move around easily like a block.*
 
 <img width="1509" height="902" alt="Screenshot 2026-09-29 at 15 17 31" src="https://github.com/user-attachments/assets/f2837588-aa0f-49c7-a070-e437382ee89c" />
 
 Second Design(Added more screenshots because it is a scrolling website)
 
-*Discovered height: 100vh, width: 100vw, which can make a single sentence take up the whole screen.
+*Discovered height: 100vh, width: 100vw, which can make a single sentence take up the whole screen.*
 
 <img width="1509" height="902" alt="Screenshot 2026-09-29 at 15 17 45" src="https://github.com/user-attachments/assets/a1630b32-87a8-469e-a6ac-810274ccd8e0" />
 
