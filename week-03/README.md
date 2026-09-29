@@ -35,4 +35,7 @@ I learned about GitHub in my other Python coding class, so using GitHub and push
 https://spacejam.com/1996/jam.htm
 I used to watch Cartoon Network, which doesn't exist anymore now, but this website gives me the same vibe
 
+5. CSS
+
+When I was looking through the W3Schools website, I saw the hover one. I used hover on my text, but there was slight difficulty using it. I wanted my text to expand when hovering, but when the px size went up, the picture that was at the bottom of the hover text went down together. I wanted everything to stay in one place when I hovered over the text. So I gave my text 200px size which made the picture not move anymore. From here, I learned that every element takes up space in the layout, so when one grows, it pushes everything after it.
 
