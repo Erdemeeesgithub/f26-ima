@@ -15,7 +15,7 @@ I worked more on the container and let it arrange the inside elements instead of
 
 I accidentally gave each event card the same class as its container. so every element box became its own grid and it took me long time to understand why it was doing weird shapes. Images got squished into a thin strip next to the text. After changing the class name, it was fixed.
 
-I also found out that <p> can't go inside another <p>. It took me another 10 minutes to find why my style was not working. 
+I also found out that <p > can't go inside another <p >. It took me another 10 minutes to find why my style was not working. 
 
 2. Resizing
 
