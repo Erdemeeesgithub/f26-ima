@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    background: #1e1e1e;
+    /* background: url("https://i.pinimg.com/originals/e0/ef/68/e0ef68aa7168ea3bd15df32d321ebeda.gif"); */
+    background-size: cover;
+    background-position: center;
     font-family: "Playfair Display", Georgia, serif;
     /* color: #222; */
 }
@@ -16,6 +18,7 @@ header {
 .headertitle {
     margin: 0;
     font-size: 2.5rem;
+    transition: color 0.5s ease-in-out;
 }
 
 main {
@@ -36,6 +39,14 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
     padding: 40px;
+    transition: transform 5s;
+}
+
+.event:hover {
+    transform: translateY(-20px);
+    box-shadow: 40px -16px gray;
+    transition: transform 0.5s, box-shadow 0.5s;
+    border-radius: 12px;
 }
 
 .event h3 {
@@ -48,6 +59,8 @@ main {
     height: 200px;
     width: 100%;
     background: gray;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .intro {
@@ -61,10 +74,6 @@ main {
     font-weight: bold;
 }
 
-/* .text {
-    display: flex;
-} */
-
 .reviews h2 {
     text-align: center;
     padding: 30px;
@@ -73,6 +82,17 @@ main {
 .reviewslist {
     display: flex;
     gap: 30px;
+}
+
+.review:hover {
+    transform: translateX(-20px);
+    box-shadow: 40px -16px gray;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.headline:hover {
+    color: rgba(38, 125, 55, 0.988);
+    transition: color 0.5s ease-in-out;
 }
 
 .review {
@@ -90,4 +110,37 @@ main {
 
 * {
     box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+
+    .events {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviewslist {
+        flex-direction: column;
+    }
+
+}
+
+@keyframes float {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.headertitle {
+    animation: float 3s infinite;
 }
