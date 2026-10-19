@@ -1,0 +1,45 @@
+body {
+    background-image: url("paper.jpg");
+    background-repeat: repeat;
+    margin: 0;
+    font-family: "Lora", serif;
+    color: #222;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 20px 40px;
+}
+
+nav a {
+    font-family: "Gochi Hand", cursive;
+    font-size: 1.5rem;
+    color: #222;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #E8A3B4;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-family: "Gochi Hand", cursive;
+    font-size: 8rem;
+    color: #E8A3B4;
+    margin: 0;
+}
+
+.me {
+    width: 250px;
+    padding: 12px 12px 40px;
+    background: white;
+    transform: rotate(-4deg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
