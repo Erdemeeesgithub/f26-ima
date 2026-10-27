@@ -14,5 +14,7 @@ I made a page that changes when you click a button. The first click changes the 
 I learned that JS can grab a element like css but do more specific graph things. Like change the text which is complex using css. I also found out that two click events on the same button both run at the same time.
 
 [JS experiment on portfolio](https://erdemeeesgithub.github.io/f26-ima/week-06(portfolio)/)
+
+
 [JS experiment on exercise](https://erdemeeesgithub.github.io/f26-ima/week-07/)
 
