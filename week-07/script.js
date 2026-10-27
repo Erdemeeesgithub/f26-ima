@@ -32,5 +32,5 @@ button.addEventListener("click", function () {
 
   button.textContent = "You will regret this!";
 
-  //   message.classList.add("shake");
+    message.classList.add("shake");
 });
