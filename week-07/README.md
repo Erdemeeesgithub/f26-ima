@@ -12,3 +12,6 @@ JavaScript experiment
 I made a page that changes when you click a button. The first click changes the title and makes the background black, like the story is changing. I also added a second click event on the same button, so the text turns red and says “You were not supposed to find this.” At the end I made the message shake by adding a CSS class with classList.add.
 
 I learned that JS can grab a element like css but do more specific graph things. Like change the text which is complex using css. I also found out that two click events on the same button both run at the same time.
+
+[JS experiment on portfolio](https://erdemeeesgithub.github.io/f26-ima/week-06(portfolio)/)
+
