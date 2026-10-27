@@ -1,0 +1,44 @@
+body {
+    background-color: #aaaaaa;
+}
+
+#domino-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.domino {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 1em;
+    border-radius: 0.5em;
+}
+
+.domino-face {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 3.2em;
+    height: 3.2em;
+    /* padding: 10px; */
+}
+
+.domino .pip {
+    font-size: 10px;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 0.1em;
+}
+
+.pip .dot {
+    background-color: black;
+    border-radius: 100%;
+}
