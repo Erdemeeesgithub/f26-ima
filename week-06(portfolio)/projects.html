@@ -4,38 +4,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phoebe's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Lora:wght@400;700&display=swap"
-        rel="stylesheet">
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.css">
 </head>
 
 <body>
+    <div class="gingham"></div>
+    <div class="scallop"></div>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-    </nav>
-    <section class="projects">
-        <h1>projects</h1>
-        <div class="cards">
-            <a class="card left" href="https://github.com/Erdemeeesgithub">
-                <img src="bogino.jpg" alt="Bogino">
-                <h2>Bogino</h2>
-                <p class="desc">A URL shortener built with Node, Express, MongoDB, and React.</p>
-            </a>
-            <a class="card right" href="https://github.com/Erdemeeesgithub">
-                <img src="spotify.jpg" alt="Spotify web app">
-                <h2>Spotify Web App</h2>
-                <p class="desc">A music app that connects to Spotify.</p>
-            </a>
-            <a class="card left" href="https://github.com/Erdemeeesgithub">
-                <img src="tracker.jpg" alt="AI Job Tracker">
-                <h2>AI Job Tracker</h2>
-                <p class="desc">Tracks job applications with help from AI.</p>
-            </a>
+        <button class="menu-btn">☰</button>
+        <div class="nav-left">
+            <a href="index.html">home</a>
+            <a href="projects.html">projects</a>
         </div>
-    </section>
+
+        <a class="logo" href="index.html">phoebe</a>
+
+        <div class="nav-right">
+            <a href="https://github.com/Erdemeeesgithub">github</a>
+            <a href="mailto:berdemdelgerekh@gmail.com">contact</a>
+        </div>
+    </nav>
+
+    <main class="projects">
+        <p class="small-title">things i've built</p>
+        <h1>my <em>projects</em></h1>
+        <p class="hint">(click any card to see it on github)</p>
+
+        <div class="grid">
+
+            <!-- big featured card -->
+            <a class="card featured" href="https://github.com/Erdemeeesgithub">
+                <div class="img">project screenshot</div>
+                <div class="info">
+                    <span class="tag">featured</span>
+                    <h2>Project Name</h2>
+                    <p class="desc">Project details go here. One or two sentences about what it does and why you made
+                        it.</p>
+                    <div class="tech">
+                        <span>tech</span><span>tech</span><span>tech</span>
+                    </div>
+                    <span class="go">view on github →</span>
+                </div>
+            </a>
+
+            <a class="card" href="https://github.com/Erdemeeesgithub">
+                <div class="img">project screenshot</div>
+                <div class="info">
+                    <span class="tag">web app</span>
+                    <h2>Project Name</h2>
+                    <p class="desc">Project details go here.</p>
+                    <div class="tech">
+                        <span>tech</span><span>tech</span>
+                    </div>
+                    <span class="go">view on github →</span>
+                </div>
+            </a>
+
+            <a class="card" href="https://github.com/Erdemeeesgithub">
+                <div class="img">project screenshot</div>
+                <div class="info">
+                    <span class="tag">web app</span>
+                    <h2>Project Name</h2>
+                    <p class="desc">Project details go here.</p>
+                    <div class="tech">
+                        <span>tech</span><span>tech</span>
+                    </div>
+                    <span class="go">view on github →</span>
+                </div>
+            </a>
+
+            <a class="card" href="https://github.com/Erdemeeesgithub">
+                <div class="img">project screenshot</div>
+                <div class="info">
+                    <span class="tag">class project</span>
+                    <h2>Project Name</h2>
+                    <p class="desc">Project details go here.</p>
+                    <div class="tech">
+                        <span>tech</span><span>tech</span>
+                    </div>
+                    <span class="go">view on github →</span>
+                </div>
+            </a>
+
+            <a class="card" href="https://github.com/Erdemeeesgithub">
+                <div class="img">project screenshot</div>
+                <div class="info">
+                    <span class="tag">class project</span>
+                    <h2>Project Name</h2>
+                    <p class="desc">Project details go here.</p>
+                    <div class="tech">
+                        <span>tech</span><span>tech</span>
+                    </div>
+                    <span class="go">view on github →</span>
+                </div>
+            </a>
+
+            <a class="card" href="https://github.com/Erdemeeesgithub">
+                <div class="img">project screenshot</div>
+                <div class="info">
+                    <span class="tag">class project</span>
+                    <h2>Project Name</h2>
+                    <p class="desc">Project details go here.</p>
+                    <div class="tech">
+                        <span>tech</span><span>tech</span>
+                    </div>
+                    <span class="go">view on github →</span>
+                </div>
+            </a>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

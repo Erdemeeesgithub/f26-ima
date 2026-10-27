@@ -5,26 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phoebe's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Lora:wght@400;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="first-screen">
+        <div class="gingham"></div>
+        <div class="scallop"></div>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-    </nav>
-    <header class="hero">
-        <h1>portfolio</h1>
-        <p>Erdemdelgerekh Battogtokh</p>
-        <img class="me" src="me.JPG" alt="Phoebe">
-    </header>
+        <nav>
+            <button class="menu-btn">☰</button>
+            <div class="nav-left">
+                <a href="index.html">home</a>
+                <a href="projects.html">projects</a>
+            </div>
+
+            <a class="logo" href="index.html">phoebe</a>
+
+            <div class="nav-right">
+                <a href="https://github.com/Erdemeeesgithub">github</a>
+                <a href="mailto:berdemdelgerekh@gmail.com">contact</a>
+            </div>
+        </nav>
+
+
+        <header class="hero">
+            <img class="sticker vine" src="img/p3.png" alt="">
+            <img class="sticker apple" src="img/apple.png" alt="">
+            <div class="hero-text">
+                <p class="hello">hi, welcome to my</p>
+                <h1>portfolio</h1>
+                <p class="name">Erdemdelgerekh <em> "Phoebe" </em> Battogtokh</p>
+                <p class="tagline">CS @ NYU Shanghai, currently in New York</p>
+                <span class="stamp">UB → SH → NYC</span>
+            </div>
+
+
+            <div class="polaroid">
+                <img class="me" src="me.JPG" alt="Phoebe">
+                <p class="caption">xoxo, phoebe ♡</p>
+                <img class="sticker clip" src="img/p11.png" alt="">
+                <img class="sticker star" src="img/p1.png" alt="">
+                <img class="sticker butterfly" src="img/p8.png" alt="">
+            </div>
+
+        </header>
+        <div class="marquee">
+            <div class="track">
+                coder ✦ deputy senator ✦ admissions ambassador ✦ ulaanbaatar → shanghai → new york ✦ tutor ✦
+                coder ✦ deputy senator ✦ admissions ambassador ✦ ulaanbaatar → shanghai → new york ✦ tutor ✦
+            </div>
+        </div>
+    </div>
+
     <section class="experience">
-        <h2>things i've done</h2>
+        <img class="sticker hearts" src="img/p6.png" alt="">
+        <h2>things i've <span class="pink-word">done</span></h2>
+        <p class="hint">(click a note!)</p>
         <div class="notes">
             <div class="note yellow left">
+                <img class="sticker pin" src="img/p10.png" alt="">
                 <h3>Deputy Senator</h3>
                 <p>NYU Shanghai in New York · 2026</p>
             </div>
@@ -41,15 +84,41 @@
                 <p>NYU Shanghai</p>
             </div>
             <div class="note pink left">
-                <h3></h3>
-                <p></p>
+                <h3>Volunteer English Teacher</h3>
+                <p>Elementary school kids</p>
             </div>
             <div class="note yellow right">
+                <img class="sticker flower" src="img/p9.png" alt="">
                 <h3>Fitness Center Worker</h3>
                 <p>NYU Shanghai</p>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="postcard">
+            <img class="sticker bee" src="img/p2.png" alt="">
+            <img class="sticker clover" src="img/p5.png" alt="">
+            <img class="sticker swirl" src="img/p4.png" alt="">
+            <img class="sticker bow" src="img/p7.png" alt="">
+            <div class="postcard-left">
+                <p class="friends">let's be <em>friends</em></p>
+                <p class="message">
+                    thanks for stopping by! whether it's a project, a coffee chat,
+                    or just to say hi, my inbox is always open ♡
+                </p>
+                <p class="sign">xoxo, phoebe</p>
+            </div>
+
+            <div class="postcard-right">
+                <div class="postage">UB<br>SH<br>NYC</div>
+                <p class="line">to: <span>you!</span></p>
+                <button id="email" class="line">copy my email ♡</button>
+                <a class="line" href="https://github.com/Erdemeeesgithub">github →</a>
+                <a class="line" href="projects.html">see my projects →</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
