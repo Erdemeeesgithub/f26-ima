@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="machine">
+        <h1>phoebe's vending machine</h1>
+
+        <div class="drinks">
+            <div class="drink">🍓<span>A1</span></div>
+            <div class="drink">🍵<span>A2</span></div>
+            <div class="drink">🧃<span>A3</span></div>
+            <div class="drink">🥤<span>B1</span></div>
+            <div class="drink">🧋<span>B2</span></div>
+            <div class="drink">☕<span>B3</span></div>
+        </div>
+
+        <p id="screen">insert a coin to start ♡</p>
+        <p>coins: <span id="coins">0</span></p>
+
+        <button id="coin-btn">insert coin</button>
+
+        <form id="buy-form">
+            <input id="code" type="text" placeholder="type a code (A1)">
+            <button type="submit">buy</button>
+        </form>
+
+        <div id="tray"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
