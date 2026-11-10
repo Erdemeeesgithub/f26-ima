@@ -58,3 +58,24 @@ body {
 .domino.flipped {
     background-color: gray;
 }
+
+body.lucky {
+    animation: lucky 0.5s 4;
+}
+
+@keyframes lucky {
+
+    0%,
+    100% {
+        background: repeating-linear-gradient(90deg, #FBE3E9 0 40px, #F4C9D3 40px 80px);
+    }
+
+    50% {
+        background: #D6DCA6;
+    }
+}
+
+#domino-container .domino:only-child {
+    transform: scale(1.6);
+    margin: 40px;
+}
