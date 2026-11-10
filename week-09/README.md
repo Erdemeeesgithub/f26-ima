@@ -1,4 +1,4 @@
-# Field-not
+# Field-note
 
 I made a vending machine. You put in a coin, type a code like A1, and a drink drops into the tray. Then that drink rains in the background. If you don’t have a coin or type the wrong code, the screen shakes and tells you what’s wrong. The page remembers how many coins you have, so the buy button does different things depending on what you did before. It was a little hard to make, so I used W3Schools and AI to help with the parts I didn’t know, like making the rain with Math.random() and setInterval. I also messed up by putting setInterval inside the rain function, so the rain kept multiplying and the page got really slow. Fixing that helped me get how timers work. 
 
