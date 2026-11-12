@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoebe's Portfolio</title>
+    <meta name="description" content="Phoebe Battogtokh, CS student at NYU Shanghai, currently in New York.">
+    <link rel="icon" href="img/p1.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="first-screen">
+        <div class="gingham"></div>
+        <div class="scallop"></div>
+
+        <nav>
+            <button class="menu-btn" aria-label="menu">☰</button>
+            <div class="nav-left">
+                <a href="index.html">home</a>
+                <a href="index.html#about">about</a>
+                <a href="projects.html">projects</a>
+            </div>
+
+            <a class="logo" href="index.html">phoebe</a>
+
+            <div class="nav-right">
+                <a href="https://github.com/Erdemeeesgithub">github</a>
+                <a href="mailto:berdemdelgerekh@gmail.com">contact</a>
+            </div>
+        </nav>
+
+
+        <header class="hero">
+            <img class="sticker vine" src="img/p3.png" alt="">
+            <img class="sticker apple" src="img/apple.png" alt="">
+            <div class="hero-text">
+                <p class="hello">hi, welcome to my</p>
+                <h1>portfolio</h1>
+                <p class="name">Erdemdelgerekh <em> "Phoebe" </em> Battogtokh</p>
+                <p class="tagline">CS @ NYU Shanghai, currently in New York</p>
+                <span class="stamp">UB → SH → NYC</span>
+            </div>
+
+
+            <div class="polaroid">
+                <img class="me" src="me.JPG" alt="Phoebe">
+                <p class="caption">xoxo, phoebe ♡</p>
+                <img class="sticker clip" src="img/p11.png" alt="">
+                <img class="sticker star" src="img/p1.png" alt="">
+                <img class="sticker butterfly" src="img/p8.png" alt="">
+            </div>
+
+        </header>
+        <div class="marquee">
+            <div class="track">
+                coder ✦ deputy senator ✦ admissions ambassador ✦ ulaanbaatar → shanghai → new york ✦ tutor ✦
+                coder ✦ deputy senator ✦ admissions ambassador ✦ ulaanbaatar → shanghai → new york ✦ tutor ✦
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <h2>a little <span class="pink-word">about</span> me</h2>
+
+        <div class="about-grid">
+            <div class="notebook reveal">
+                <img class="sticker star-about" src="img/p1.png" alt="">
+                <p class="dear">hi, i'm phoebe!</p>
+                <p>
+                    i grew up in Ulaanbaatar, Mongolia, and moved abroad for college. i did all my applications
+                    by myself, which still feels kind of crazy.
+                </p>
+                <p>
+                    i spent two years at NYU Shanghai, and now i'm in New York for a year at NYU Tandon. i study
+                    computer science because i like building things that people actually use.
+                </p>
+                <p>
+                    when i'm not coding, i'm probably playing chess, doing sudoku, or listening to music.
+                </p>
+            </div>
+
+            <div class="tickets">
+                <div class="ticket pink reveal">
+                    <span class="from">UB</span>
+                    <p>where i grew up</p>
+                </div>
+                <div class="ticket green reveal">
+                    <span class="from">SH</span>
+                    <p>2 years at NYU Shanghai</p>
+                </div>
+                <div class="ticket yellow reveal">
+                    <span class="from">NYC</span>
+                    <p>study away at NYU Tandon, now!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <img class="sticker hearts" src="img/p6.png" alt="">
+        <h2>things i've <span class="pink-word">done</span></h2>
+        <p class="hint">(click a note!)</p>
+        <div class="notes">
+            <!--
+                each note has a hidden "details" part.
+                when you click the note, script.js shows the details in a popup.
+                to add your photos: put them in img/ and replace each
+                <div class="photo">add a photo</div> with <img src="img/your-photo.jpg" alt="">
+            -->
+            <div class="note yellow left reveal">
+                <img class="sticker pin" src="img/p10.png" alt="">
+                <h3>Deputy Senator</h3>
+                <p>NYU Shanghai in New York · 2026</p>
+
+                <div class="details">
+                    <p>I represent NYU Shanghai students who are studying away in New York.</p>
+
+                    <h4>what i did</h4>
+                    <ul>
+                        <li>Bring questions and concerns from NYU Shanghai students in NY to the senate</li>
+                        <li>Serve as an alternate on the NYU University Senate</li>
+                        <li>Help students from Shanghai feel connected while they're far from campus</li>
+                    </ul>
+
+                    <h4>what i learned</h4>
+                    <p>How a big university actually makes decisions, and how to speak up for a small group of students.
+                    </p>
+
+                    <div class="photos">
+                        <div class="photo">add a photo</div>
+                        <div class="photo">add a photo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="note pink right reveal">
+
+                <h3>Admissions Ambassador</h3>
+                <p>NYU Shanghai · 2026</p>
+
+                <div class="details">
+                    <p>I talk to students and families who are thinking about NYU Shanghai.</p>
+
+                    <h4>what i did</h4>
+                    <ul>
+                        <li>Answer questions about classes, campus life and living in Shanghai</li>
+                        <li>Share my own story of applying from Mongolia by myself</li>
+                        <li>Help at admissions events for future students</li>
+                    </ul>
+
+                    <h4>what i learned</h4>
+                    <p>How to be honest and helpful at the same time. I remember how confusing applying was, so I like
+                        making it easier for someone else.</p>
+
+                    <div class="photos">
+                        <div class="photo">add a photo</div>
+                        <div class="photo">add a photo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="note green left reveal">
+
+                <h3>Treasurer</h3>
+                <p>Social Science Club</p>
+
+                <div class="details">
+                    <p>I was the treasurer of the Social Science Club at NYU Shanghai.</p>
+
+                    <h4>what i did</h4>
+                    <ul>
+                        <li>Managed the club budget and kept track of spending</li>
+                        <li>Helped plan club events</li>
+                        <li>Worked with the other board members on what the club should do</li>
+                    </ul>
+
+                    <h4>what i learned</h4>
+                    <p>Being organized with money matters, even small amounts. Also, how to work with a team.</p>
+
+                    <div class="photos">
+                        <div class="photo">add a photo</div>
+                        <div class="photo">add a photo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="note blue right reveal">
+
+                <h3>Orientation Ambassador</h3>
+                <p>NYU Shanghai</p>
+
+                <div class="details">
+                    <p>I helped new students settle into NYU Shanghai during their first weeks.</p>
+
+                    <h4>what i did</h4>
+                    <ul>
+                        <li>Welcomed new students and showed them around campus and the city</li>
+                        <li>Answered lots of questions about life in Shanghai</li>
+                        <li>Was also a Group Leader for Candidate Weekend</li>
+                    </ul>
+
+                    <h4>what i learned</h4>
+                    <p>How much a friendly face matters when you're new somewhere. I was new once too.</p>
+
+                    <div class="photos">
+                        <div class="photo">add a photo</div>
+                        <div class="photo">add a photo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="note pink left reveal">
+
+                <h3>Volunteer English Teacher</h3>
+                <p>Elementary school kids</p>
+
+                <div class="details">
+                    <p>I taught English to elementary school kids as a volunteer with Stepping Stones.</p>
+
+                    <h4>what i did</h4>
+                    <ul>
+                        <li>Planned simple, fun lessons for kids</li>
+                        <li>Helped them practice speaking without being shy</li>
+                        <li>Kept showing up every week</li>
+                    </ul>
+
+                    <h4>what i learned</h4>
+                    <p>Patience! And that explaining something simply is harder than it looks (which also helps with
+                        coding).</p>
+
+                    <div class="photos">
+                        <div class="photo">add a photo</div>
+                        <div class="photo">add a photo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="note yellow right reveal">
+                <img class="sticker flower" src="img/p9.png" alt="">
+                <h3>Fitness Center Worker</h3>
+                <p>NYU Shanghai</p>
+
+                <div class="details">
+                    <p>I worked at the NYU Shanghai fitness center.</p>
+
+                    <h4>what i did</h4>
+                    <ul>
+                        <li>Checked students in and helped them find what they needed</li>
+                        <li>Kept the gym clean and organized</li>
+                        <li>Balanced work shifts with classes</li>
+                    </ul>
+
+                    <h4>what i learned</h4>
+                    <p>Time management, and being reliable when people count on you.</p>
+
+                    <div class="photos">
+                        <div class="photo">add a photo</div>
+                        <div class="photo">add a photo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popup that opens when you click a note -->
+    <div class="popup">
+        <div class="post">
+            <button class="close" aria-label="close">✕</button>
+            <img class="sticker post-bow" src="img/p7.png" alt="">
+            <h3 class="post-title"></h3>
+            <p class="post-sub"></p>
+            <div class="post-body"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="postcard reveal">
+            <img class="sticker bee" src="img/p2.png" alt="">
+            <img class="sticker clover" src="img/p5.png" alt="">
+            <img class="sticker swirl" src="img/p4.png" alt="">
+            <img class="sticker bow" src="img/p7.png" alt="">
+            <div class="postcard-left">
+                <p class="friends">let's be <em>friends</em></p>
+                <p class="message">
+                    thanks for stopping by! whether it's a project, a coffee chat,
+                    or just to say hi, my inbox is always open ♡
+                </p>
+                <p class="sign">xoxo, phoebe</p>
+            </div>
+
+            <div class="postcard-right">
+                <div class="postage">UB<br>SH<br>NYC</div>
+                <p class="line">to: <span>you!</span></p>
+                <button id="email" class="line">copy my email ♡</button>
+                <a class="line" href="https://github.com/Erdemeeesgithub">github →</a>
+                <a class="line" href="projects.html">see my projects →</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

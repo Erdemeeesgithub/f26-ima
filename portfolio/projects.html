@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects · Phoebe</title>
+    <link rel="icon" href="img/p1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <div class="gingham"></div>
+    <div class="scallop"></div>
+
+    <nav>
+        <button class="menu-btn" aria-label="menu">☰</button>
+        <div class="nav-left">
+            <a href="index.html">home</a>
+            <a href="index.html#about">about</a>
+            <a href="projects.html">projects</a>
+        </div>
+
+        <a class="logo" href="index.html">phoebe</a>
+
+        <div class="nav-right">
+            <a href="https://github.com/Erdemeeesgithub">github</a>
+            <a href="mailto:berdemdelgerekh@gmail.com">contact</a>
+        </div>
+    </nav>
+
+    <main class="projects">
+        <p class="small-title">things i've built</p>
+        <h1>my <em>projects</em></h1>
+        <p class="hint">(click a card to see the code)</p>
+
+        <div class="grid">
+
+            <!-- TODO: swap the github links for each project's repo link -->
+            <a class="card featured reveal" href="https://github.com/Erdemeeesgithub">
+                <div class="img">bogino ✂</div>
+                <div class="info">
+                    <span class="tag">featured</span>
+                    <h2>Bogino</h2>
+                    <p class="desc">A URL shortener. You paste a long link and get a short one back. I built the whole
+                        thing myself, frontend to database.</p>
+                    <div class="tech">
+                        <span>React</span><span>Node</span><span>Express</span><span>MongoDB</span>
+                    </div>
+                    <span class="go">view on github →</span>
+                </div>
+            </a>
+
+            <a class="card reveal" href="https://github.com/Erdemeeesgithub">
+                <div class="img green-bg">spotify app ♫</div>
+                <div class="info">
+                    <span class="tag">web app</span>
+                    <h2>Spotify App</h2>
+                    <p class="desc">A music web app built on the Spotify API.</p>
+                    <div class="tech">
+                        <span>React</span><span>Spotify API</span>
+                    </div>
+                    <span class="go">view on github →</span>
+                </div>
+            </a>
+
+            <a class="card reveal" href="https://github.com/Erdemeeesgithub/to-do-list-demo">
+                <div class="img yellow-bg">task manager ✓</div>
+                <div class="info">
+                    <span class="tag">summer project</span>
+                    <h2>Min-Heap Task Manager</h2>
+                    <p class="desc">A to-do list that sorts tasks by priority using a min-heap. Deployed live on
+                        Render.</p>
+                    <div class="tech">
+                        <span>Python</span><span>Flask</span>
+                    </div>
+                    <span class="go">view on github →</span>
+                </div>
+            </a>
+
+            <a class="card reveal" href="index.html">
+                <img class="img" src="img/portfolio.jpg" alt="screenshot of this portfolio">
+                <div class="info">
+                    <span class="tag">class project</span>
+                    <h2>This Portfolio</h2>
+                    <p class="desc">The site you're on! A scrapbook made with plain HTML, CSS and JS.</p>
+                    <div class="tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <span class="go">back to home →</span>
+                </div>
+            </a>
+
+            <div class="card soon reveal">
+                <p>more coming soon ♡</p>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
