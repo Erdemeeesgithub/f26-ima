@@ -9,3 +9,5 @@ I tested what happens when it breaks by changing the URL to a wrong one. It says
 The advice from the API isn’t scary at all, it’s just random advice. But when it gets spelled out slowly on a Ouija board, it feels creepy. So the way you show the info really changes how it feels.
 
 It was a little confusing, so I used W3Schools and AI to help me understand fetch and async/await.
+
+For the final project, I will continue to work on my portfolio making it more interactable also adding loading screen.
