@@ -6,14 +6,58 @@ const exhibits = [
     { name: "The Empty Gallery", visitors: 150, minutes: 2, rating: 2.1 }
 ];
 
-const names = exhibits.map(exhibit => exhibit.name);
+const chart = document.querySelector("#chart");
+const chart2 = document.querySelector("#chart2");
 
-console.log(names);
+const maxMinutes = Math.max(
+    ...exhibits.map(exhibit => exhibit.minutes)
+);
+const maxRating = Math.max(
+    ...exhibits.map(exhibit => exhibit.rating)
+);
 
-const durations = exhibits.map(exhibit => exhibit.minutes);
+exhibits.forEach(exhibit => {
 
-console.log(durations);
+    const row = document.createElement("div");
+    row.className = "chart-row";
 
-const popular = exhibits.filter(exhibit => exhibit.visitors > 100);
+    const label = document.createElement("span");
+    label.textContent = exhibit.name;
 
-console.log(popular);
+    const bar = document.createElement("div");
+    bar.className = "bar";
+
+    const width = exhibit.minutes / maxMinutes * 100;
+
+    bar.style.width = `${width}%`;
+
+    const value = document.createElement("span");
+    value.textContent = exhibit.minutes;
+
+    row.append(label, bar, value);
+    chart.append(row);
+
+});
+
+exhibits.forEach(exhibit => {
+
+    const row = document.createElement("div");
+    row.className = "chart-row";
+
+    const label = document.createElement("span");
+    label.textContent = exhibit.name;
+
+    const bar = document.createElement("div");
+    bar.className = "bar";
+
+    const width = exhibit.rating / maxRating * 100;
+
+    bar.style.width = `${width}%`;
+
+    const value = document.createElement("span");
+    value.textContent = exhibit.rating;
+
+    row.append(label, bar, value);
+    chart2.append(row);
+
+});
